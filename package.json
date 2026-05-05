@@ -1,0 +1,13 @@
+{
+  "name": "telegram-restore",
+  "version": "1.0.0",
+  "description": "Restore data from Telegram and publish it to MongoDB",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "restore": "node restore.js",
+    "full": "node scraper.js && node restore.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  }
+}
