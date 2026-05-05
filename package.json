@@ -8,6 +8,7 @@
     "full": "node scraper.js && node restore.js"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "mongodb": "^6.0.0"
   }
 }

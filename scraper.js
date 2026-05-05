@@ -1,5 +1,6 @@
 const https = require("https");
 const fs = require("fs");
+require("dotenv").config();
 
 const BOT_TOKEN = process.env.BOT_TOKEN || "YOUR_BOT_TOKEN_HERE";
 const CHAT_ID = process.env.CHAT_ID || "YOUR_CHANNEL_ID_HERE"; // ex: @mychannel or -1001234567890
